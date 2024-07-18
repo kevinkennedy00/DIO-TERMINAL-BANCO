@@ -14,5 +14,7 @@ public class ContaPoupanca extends Conta {
 		this.agenciaCP = agenciaCP;
 		this.numeroCP = numeroCP;
 	}
-
+	public static int getSequencial() {
+	    return SEQUENCIAl++;
+	}
 }

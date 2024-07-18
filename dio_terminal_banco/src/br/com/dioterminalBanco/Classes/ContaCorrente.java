@@ -33,6 +33,9 @@ public class ContaCorrente extends Conta {
 	public double getLimiteChequeEspecial() {
 		return limiteCreditoEspecial;
 	}
+	public static int getSequencial() {
+	    return SEQUENCIAl++;
+	}
 
 	@Override
 	public void sacar(double valor) {
