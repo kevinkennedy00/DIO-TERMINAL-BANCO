@@ -1,7 +1,7 @@
 
 package br.com.dioterminalBanco.Classes;
 
-public abstract class Banco {
+public abstract class Conta {
 	private String nomeCliente;
 	private int telefone;
 	protected int idadeUsuario;
@@ -9,7 +9,7 @@ public abstract class Banco {
 	private double depositar;
 	protected static double sacar;
 
-	public Banco(String nomeCliente, int telefone, int idade, double saldo, double depositar) {
+	public Conta(String nomeCliente, int telefone, int idade, double saldo, double depositar) {
 		super();
 		this.nomeCliente = nomeCliente;
 		this.telefone = telefone;

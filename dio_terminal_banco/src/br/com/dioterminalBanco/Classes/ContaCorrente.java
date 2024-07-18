@@ -1,6 +1,6 @@
 package br.com.dioterminalBanco.Classes;
 
-public class ContaCorrente extends Banco {
+public class ContaCorrente extends Conta {
 
 	private static final int AGENCIA_PADRAOCC = 02;
 	private static int SEQUENCIAl = 1;
